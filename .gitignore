@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+ai-connection.json
+ai-connection.tmp
+*-settings/
+
+# Runtime data
+logs/
+tmp/
+outputs/
+uploads/
+models/
+work/
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.log
+
+# User media must never enter source control
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.m4v
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
